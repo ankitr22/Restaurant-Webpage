@@ -1,0 +1,59 @@
+body{
+    background-image: url("backimg1.jpg"); 
+    padding:10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:500px;
+    background-size: 100% 100%;
+}
+.box1{
+    color: rgba(203, 9, 9, 0.966);
+}
+.box1 h1{
+    font-size:40px;
+    line-height:5px;
+}
+.box1 h5{
+    font-size:20px;
+}
+.btn{
+    display: inline-block;
+    background: rgb(244, 233, 197);
+    padding: 5px 30px;
+    margin:0px 34px;
+    border-radius: 30px;
+}
+.box2 a{
+    color: rgb(244, 158, 54);
+}
+.box3{
+    display: flex;
+}
+.part1,.part2{
+    flex-basis: 50%;
+    padding: 30px 0px;
+}
+.a1{
+    color: rgba(20, 122, 233, 0.836);
+}
+.a2{
+    color: rgba(61, 223, 40, 0.836);
+}
+.foodbox{
+    display: flex;
+}
+.food{
+    flex-basis:50%;
+}
+.food p{
+    color:rgb(244, 22, 22);
+}
+.offer{
+    display:inline-block;
+    padding: 10px 20px;
+    background: rgb(4, 208, 58);
+    color:rgb(245, 27, 27);
+    margin: 5px 10px;
+    border-radius:15px;
+}
